@@ -8,3 +8,17 @@ Implements the *[Game of Life](https://en.wikipedia.org/wiki/Conway's_Game_of_Li
 - Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction
 
 The status of the game on each iteration should be displayed to the console, and for convenience, you should pick a reasonable size, such as 20 rows x 50 columns.
+
+To create universe do: 
+
+```cpp
+#include "stdafx.h"
+#include "Universe.h"
+
+int main() {
+    using namespace std::chrono_literals;
+    
+    Universe game(50, 50);
+    game.run(Universe::Seed::Random, 100, 100ms);
+}
+```
