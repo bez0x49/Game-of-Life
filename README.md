@@ -1,6 +1,6 @@
 # Game of Life
 
-Implements the *[Game of Life](https://en.wikipedia.org/wiki/The_Game_of_Life)* cellular automaton proposed by *[John Horton Conway](https://en.wikipedia.org/wiki/John_Horton_Conway)*. The universe of this game is a grid of square cells that could have one of two states: `Dead` or `Alive`. Every cell interacts with its adjacent neighbors, with the following transactions occurring on every step:
+Implements the *[Game of Life](https://en.wikipedia.org/wiki/Conway's_Game_of_Life)* cellular automaton proposed by *[John Horton Conway](https://en.wikipedia.org/wiki/John_Horton_Conway)*. The universe of this game is a grid of square cells that could have one of two states: `Dead` or `Alive`. Every cell interacts with its adjacent neighbors, with the following transactions occurring on every step:
 
 - Any live cell with fewer than two live neighbors dies, as if caused by under-population
 - Any live cell with two or three live neighbors on to the next generation
